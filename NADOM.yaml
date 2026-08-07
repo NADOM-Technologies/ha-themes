@@ -1,0 +1,91 @@
+NADOM:
+  ha-font-family-body: "Poppins, sans-serif"
+  mdc-typography-body1-font-family: "Poppins, sans-serif"
+  mdc-typography-button-font-family: "Poppins, sans-serif"
+  mdc-typography-subtitle1-font-family: "Poppins, sans-serif"
+  mdc-typography-headline6-font-family: "Poppins, sans-serif"
+
+
+  primary-color: "#d2b06a"
+  primary-text-color: "#e1e1e1"
+  secondary-text-color: "#9b9b9b"
+  accent-color: "#CFC3B4"
+  rgb-text-primary-color: "rgb(33, 33, 33)"
+  rgb-primary-text-color: "rgb(225, 225, 225)"
+  switch-unchecked-button-color: "#999999"
+  switch-unchecked-track-color: "#9b9b9b"
+  input-label-ink-color: "#ffffff99"
+  divider-color: "rgba(225, 225, 225, 0.12)"
+  input-fill-color: "#2a2a2a"
+  mdc-text-field-fill-color: "#2a2a2a"
+  input-ink-color: "rgba(255, 255, 255, 0.87)"
+  input-idle-line-color: "rgba(255, 255, 255, 0.42)"
+  input-dropdown-icon-color: "rgba(255, 255, 255, 0.54)"
+  # Text colour on HA buttons
+
+
+  text-primary-color: "#ffffff"                     # eg in developer tools
+  text-light-primary-color: "#1c1c1c"               # eg on user profile button at the bottom of the sidebar
+  disabled-text-color: "#bdbdbd"
+  dark-primary-color: "#d2b06a"
+  # Header text
+
+  app-header-text-color: "#222222"
+
+  # Badges
+
+  label-badge-text-color: "#e1e1e1"
+
+  # Sidebar
+
+  sidebar-text-color: "#e1e1e1"                     # If omitted defaults to primary text colour
+  sidebar-selected-text-color: "#d2b06a"            # If omitted defaults to secondary text colour
+  sidebar-selected-icon-color: "#d2b06a"   
+
+  # BACKGROUND COLOURS ###############################
+
+  # Main display area
+
+  primary-background-color: "#111111"               #black
+  card-background-color: "#1c1c1c"                  # black
+  ha-card-background: "#1c1c1c"  
+  # card-background-color: rgba(0,0,0,0)              # transparent
+  secondary-background-color: "#282828"             # Behind current item in a dropdown list
+
+  # Sidebar
+
+  sidebar-background-color: "#1c1c1c"
+
+  # Header
+
+  app-header-background-color: "#d2b06a"
+  app-theme-color: "#101e24"
+  state-icon-color: "#d2b06a"
+  
+  # 
+  
+    # --- CARD / SURFACE FIX (IMPORTANT) ---
+  paper-card-background-color: "#1c1c1c"
+  ha-card-border-color: "rgba(255,255,255,0.08)"
+
+  # MDC (Material UI used by HA)
+  mdc-theme-surface: "#1c1c1c"
+  mdc-theme-background: "#111111"
+  material-background-color: "#1c1c1c"
+
+  # HA specific surfaces
+  ha-dialog-background: "#1c1c1c"
+  ha-sidebar-background-color: "#1c1c1c"
+  ha-color-form-background: "#1c1c1c"
+  ha-color-form-background-hover: "#222222"
+
+
+
+  # Inputs consistency
+  
+  mdc-text-field-idle-line-color: "rgba(255,255,255,0.2)"
+  mdc-text-field-hover-line-color: "#d2b06a"
+  mdc-text-field-hover-fill-color: "#222222"
+  ha-tooltip-background-color: "#222222"
+  ha-color-fill-primary-normal-resting: "ha-color-neutral-20"
+  
